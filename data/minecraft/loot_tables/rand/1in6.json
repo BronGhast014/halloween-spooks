@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_button",
+					"functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{1in6Result:1,kill:1}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_button",
+					"functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{1in6Result:2,kill:1}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_button",
+					"functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{1in6Result:3,kill:1}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_button",
+					"functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{1in6Result:4,kill:1}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_button",
+					"functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{1in6Result:5,kill:1}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_button",
+					"functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{1in6Result:6,kill:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
