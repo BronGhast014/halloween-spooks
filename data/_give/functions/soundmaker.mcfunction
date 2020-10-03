@@ -4,4 +4,4 @@
 # Copyright: October / 2020
 ################################################################################
 
-give @s armor_stand{display:{Name:'{"translate":"bgsdp.soundmaker"}'},HideFlags:32,CustomModelData:10140001,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_sound_maker"]}} 1
+give @s armor_stand{display:{Name:'{"translate":"bgsdp.soundmaker","italic":false}'},HideFlags:32,CustomModelData:10140001,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_sound_maker"]}} 1
