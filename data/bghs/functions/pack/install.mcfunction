@@ -1,7 +1,7 @@
 ################################################################################
 # Authors: BronGhast014
 # Version: 1.16.2 +
-# Copyright: October / 2020
+# Copyright: July / 2020
 # Discription: Installs Halloween Spooks
 ################################################################################
 
@@ -22,7 +22,6 @@ scoreboard objectives add BGHS_click minecraft.used:minecraft.carrot_on_a_stick
 #region Set up globals
 
 scoreboard players set bghs:global BGHS_installed 1
-scoreboard players set bghs:global BGHS_rand 0
 
 #endregion
 
