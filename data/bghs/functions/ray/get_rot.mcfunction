@@ -6,12 +6,12 @@
 ################################################################################
 
 #south
-scoreboard players set @s[y_rotation=-11..46] SPP_direction 1
+scoreboard players set @s[y_rotation=-11..46] BGHS_direction 1
 #west
-scoreboard players set @s[y_rotation=47..136] SPP_direction 2
+scoreboard players set @s[y_rotation=47..136] BGHS_direction 2
 #north
-scoreboard players set @s[y_rotation=137..-136] SPP_direction 3
+scoreboard players set @s[y_rotation=137..-136] BGHS_direction 3
 #east
-scoreboard players set @s[y_rotation=-135..-46] SPP_direction 4
+scoreboard players set @s[y_rotation=-135..-46] BGHS_direction 4
 #south
-scoreboard players set @s[y_rotation=-45..-12] SPP_direction 1
+scoreboard players set @s[y_rotation=-45..-12] BGHS_direction 1

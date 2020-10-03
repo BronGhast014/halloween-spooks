@@ -25,7 +25,7 @@ execute as @e[tag=gtrigger] at @s if block ~ ~-1 ~ air run kill @s
 execute as @e[tag=fake_lava] at @s if block ~ ~-1 ~ air run summon item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"translate":"bgsdp.lava"}'},HideFlags:32,CustomModelData:10140007,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_lava"]}}}}
 execute as @e[tag=fake_lava] at @s if block ~ ~-1 ~ air run kill @s
 
-execute as @e[tag=ghost,scores={SPP_timer=0}] at @s if block ~ ~-1 ~ air run summon item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"translate":"bgsdp.ghost"}'},HideFlags:32,CustomModelData:10140006,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_ghost"]}}}}
-execute as @e[tag=ghost,scores={SPP_timer=0}] at @s if block ~ ~-1 ~ air run kill @s
+execute as @e[tag=ghost,scores={BGHS_timer=0}] at @s if block ~ ~-1 ~ air run summon item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"translate":"bgsdp.ghost"}'},HideFlags:32,CustomModelData:10140006,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_ghost"]}}}}
+execute as @e[tag=ghost,scores={BGHS_timer=0}] at @s if block ~ ~-1 ~ air run kill @s
 
 kill @e[tag=kill]
