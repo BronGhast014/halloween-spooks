@@ -1,8 +1,8 @@
-####################################################
-# Copyright BronGhast014
-# 1.14.4
-# https://www.youtube.com/c/BronGhast014
-####################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+################################################################################
 
 
 execute at @s if entity @p[distance=..4] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:carved_pumpkin",Count:1b,tag:{CustomModelData:10140202}}]}

@@ -1,8 +1,8 @@
-####################################################
-# Copyright BronGhast014
-# 1.14.4
-# https://www.youtube.com/c/BronGhast014
-####################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+################################################################################
 
 execute as @a[scores={SPP_click=1..}] at @s run function bghs:ray/cast
 execute as @a[scores={SPP_click=1..}] at @s run effect give @e[tag=hiddenH,distance=..15] glowing 5 1 true

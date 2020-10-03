@@ -1,8 +1,9 @@
-##############################################################################################################
-# Author: BronGhast014
-# Date: 10/5/18
-# Description: gets the executer's rotation and translates in into a 4 axis score
-##############################################################################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+# Description: gets the @s's rotation and translates in into a 4 axis score
+################################################################################
 
 #south
 scoreboard players set @s[y_rotation=-11..46] SPP_direction 1

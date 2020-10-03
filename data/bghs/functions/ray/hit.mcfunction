@@ -1,7 +1,8 @@
-##############################################################################################################
-# Author: BronGhast014
-# Date: 3/14/18
-##############################################################################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+################################################################################
 
 execute as @e[type=armor_stand,tag=sound_maker,distance=..0.1] run scoreboard players add @s SPP_option 1
 execute as @e[tag=sound_maker,scores={SPP_option=5..}] at @s run scoreboard players set @s SPP_option 0

@@ -1,8 +1,8 @@
-####################################################
-# Copyright BronGhast014
-# 1.14.4
-# https://www.youtube.com/c/BronGhast014
-####################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+################################################################################
 
 execute at @s run particle poof ~ ~ ~ 0.1 0.5 0.1 0 15
 execute at @s[nbt={Item:{id:"minecraft:stone_button",tag:{spawngolem:1}}}] run summon snow_golem ~ ~ ~

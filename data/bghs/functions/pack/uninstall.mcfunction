@@ -1,8 +1,8 @@
-####################################################
-# Copyright BronGhast014
-# 1.14.4
-# https://www.youtube.com/c/BronGhast014
-####################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+################################################################################
 
 scoreboard objectives remove SPP_rand
 scoreboard objectives remove SPP_ray

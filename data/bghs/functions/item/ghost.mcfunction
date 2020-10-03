@@ -1,8 +1,8 @@
-####################################################
-# Copyright BronGhast014
-# 1.14.4
-# https://www.youtube.com/c/BronGhast014
-####################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+################################################################################
 
 scoreboard players add @s[scores={SPP_timer=1..}] SPP_timer 1
 scoreboard players set @s[scores={SPP_timer=102}] SPP_timer 0

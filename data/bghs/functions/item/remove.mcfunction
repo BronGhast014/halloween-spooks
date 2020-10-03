@@ -1,8 +1,8 @@
-####################################################
-# Copyright BronGhast014
-# 1.14.4
-# https://www.youtube.com/c/BronGhast014
-####################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+################################################################################
 
 execute as @e[tag=spooky_pumpkin] at @s if block ~ ~ ~ air run summon item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"translate":"bgsdp.pumpkin"}'},HideFlags:32,CustomModelData:10140002,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_pumpkin"]}}}}
 execute as @e[tag=spooky_pumpkin] at @s if block ~ ~ ~ air run kill @e[type=item,nbt={Item:{id:"minecraft:orange_stained_glass"}},distance=..0.8,limit=1]

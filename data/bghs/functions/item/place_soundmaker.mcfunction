@@ -1,8 +1,8 @@
-####################################################
-# Copyright BronGhast014
-# 1.14.4
-# https://www.youtube.com/c/BronGhast014
-####################################################
+################################################################################
+# Authors: BronGhast014
+# Version: 1.16.3 +
+# Copyright: October / 2020
+################################################################################
 
 summon armor_stand ~ ~ ~ {Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["sound_maker","newsound"]}
 scoreboard players set @e[tag=newsound] SPP_timer 0
