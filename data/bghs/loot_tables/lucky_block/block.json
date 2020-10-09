@@ -6,19 +6,19 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "minecraft:spp/un_mob"
+          "name": "bghs:lucky_block/un_mob"
         },
 		{
           "type": "loot_table",
-          "name": "minecraft:spp/un_event"
+          "name": "bghs:lucky_block/un_event"
         },
 		{
           "type": "loot_table",
-          "name": "minecraft:spp/mob"
+          "name": "bghs:lucky_block/mob"
         },
 		{
           "type": "loot_table",
-          "name": "minecraft:spp/item"
+          "name": "bghs:lucky_block/item"
         }
       ]
     }

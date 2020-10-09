@@ -12,7 +12,7 @@ execute as @e[tag=spooky_spumpkin] at @s if block ~ ~ ~ air run summon item ~ ~ 
 execute as @e[tag=spooky_spumpkin] at @s if block ~ ~ ~ air run kill @e[type=item,nbt={Item:{id:"minecraft:orange_stained_glass"}},distance=..0.8,limit=1]
 execute as @e[tag=spooky_spumpkin] at @s if block ~ ~ ~ air run kill @s
 
-execute as @e[tag=lucky_block] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot minecraft:spp/lucky_block
+execute as @e[tag=lucky_block] at @s if block ~ ~ ~ air run loot spawn ~ ~ ~ loot bghs:lucky_block/block
 execute as @e[tag=lucky_block] at @s if block ~ ~ ~ air run kill @e[type=item,nbt={Item:{id:"minecraft:orange_stained_glass"}},distance=..0.8,limit=1]
 execute as @e[tag=lucky_block] at @s if block ~ ~ ~ air run kill @s
 
