@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"bghs.ghost\",\"italic\":false}',Lore:['{\"translate\":\"bghs.lore\"}']},HideFlags:32,CustomModelData:10140006,EntityTag:{Small:1b,Invisible:1b,Tags:[\"spawn_ghost\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
