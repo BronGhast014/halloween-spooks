@@ -36,5 +36,5 @@ execute as @e[tag=frame,scores={BGHS_option=3}] run data merge entity @s {Rotati
 execute positioned ~ ~1 ~ as @e[tag=fake_lava,distance=..0.1] at @s run stopsound @a block minecraft:block.lava.ambient
 execute positioned ~ ~1 ~ as @e[tag=fake_lava,distance=..0.1] at @s run setblock ~ ~ ~ sponge
 execute positioned ~ ~1 ~ as @e[tag=fake_lava,distance=..0.1] at @s run setblock ~ ~ ~ air
-execute positioned ~ ~1 ~ as @e[tag=fake_lava,distance=..0.1] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"translate":"bgsdp.lava"}'},HideFlags:32,CustomModelData:10140007,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_lava"]}}}}
+execute positioned ~ ~1 ~ as @e[tag=fake_lava,distance=..0.1] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:armor_stand",Count:1b,tag:{display:{Name:'{"translate":"bghs.lava"}'},HideFlags:32,CustomModelData:10140007,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_lava"]}}}}
 execute positioned ~ ~1 ~ as @e[tag=fake_lava,distance=..0.1] run kill @s
