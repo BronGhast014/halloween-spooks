@@ -4,4 +4,4 @@
 # Copyright: October / 2020
 ################################################################################
 
-give @s armor_stand{display:{Name:'{"translate":"bghs.pumpkin","italic":false}',Lore:['{"translate":"bghs.lore"}']},HideFlags:32,CustomModelData:10140002,EntityTag:{Small:1b,Invisible:1b,Tags:["spawn_pumpkin"]}} 1
+loot give @s loot bghs:item/pumpkin
