@@ -9,6 +9,7 @@ scoreboard objectives remove BGHS_ray
 scoreboard objectives remove BGHS_installed
 scoreboard objectives remove BGHS_option
 scoreboard objectives remove BGHS_timer
+scoreboard objectives remove BGHS_tick
 scoreboard objectives remove BGHS_direction
 scoreboard objectives remove BGHS_click
 

@@ -14,6 +14,7 @@ scoreboard objectives add BGHS_rand dummy
 scoreboard objectives add BGHS_ray dummy
 scoreboard objectives add BGHS_option dummy
 scoreboard objectives add BGHS_timer dummy
+scoreboard objectives add BGHS_tick dummy
 scoreboard objectives add BGHS_direction dummy
 scoreboard objectives add BGHS_click minecraft.used:minecraft.carrot_on_a_stick
 
