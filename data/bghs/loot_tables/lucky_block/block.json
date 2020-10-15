@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bghs:lucky_block/un_mob"
+        },
+		{
+          "type": "loot_table",
+          "name": "bghs:lucky_block/un_event"
+        },
+		{
+          "type": "loot_table",
+          "name": "bghs:lucky_block/mob"
+        },
+		{
+          "type": "loot_table",
+          "name": "bghs:lucky_block/item"
+        }
+      ]
+    }
+  ]
+}
