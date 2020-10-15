@@ -4,8 +4,7 @@
 # Copyright: October / 2020
 ################################################################################
 
-
-execute at @s if block ~ ~ ~ air run loot spawn ~ ~0.2 ~ loot bghs:item/pumpkin
+execute at @s if block ~ ~ ~ air run loot spawn ~ ~0.2 ~ loot bghs:item/pumpkin_scare
 execute at @s if block ~ ~ ~ air run kill @e[type=item,nbt={Item:{id:"minecraft:orange_stained_glass"}},distance=..0.8,limit=1]
 execute at @s if block ~ ~ ~ air run kill @s
 

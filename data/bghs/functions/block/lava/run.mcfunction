@@ -4,6 +4,9 @@
 # Copyright: October / 2020
 ################################################################################
 
+execute at @s if block ~ ~-1 ~ air run loot spawn ~ ~0.2 ~ loot bghs:item/lava
+execute at @s if block ~ ~-1 ~ air run kill @s
+
 scoreboard players add @s BGHS_timer 1
 scoreboard players set @s[scores={BGHS_timer=161}] BGHS_timer 0
 execute at @s[scores={BGHS_timer=3}] run playsound minecraft:block.lava.ambient block @a ~ ~ ~

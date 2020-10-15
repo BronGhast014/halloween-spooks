@@ -4,6 +4,9 @@
 # Copyright: October / 2020
 ################################################################################
 
+execute at @s if block ~ ~-1 ~ air run loot spawn ~ ~0.2 ~ loot bghs:item/ghost
+execute at @s if block ~ ~-1 ~ air run kill @s
+
 scoreboard players add @s[scores={BGHS_timer=1..}] BGHS_timer 1
 scoreboard players set @s[scores={BGHS_timer=102}] BGHS_timer 0
 
