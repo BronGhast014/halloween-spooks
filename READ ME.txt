@@ -1,0 +1,9 @@
+How to install:
+
+1 navigate to your .minecraft/saves folder
+2 drag the "datapacks" and "resorse" files into the worlds file without unzipping the "resorse" one
+3 go into your world
+4 your done! enjoy!
+
+If you need help installing the datapack you can watch this video:
+https://www.youtube.com/watch?v=ykudh27ayyY&t=1s
